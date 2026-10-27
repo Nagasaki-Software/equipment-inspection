@@ -1,0 +1,2109 @@
+[
+  {
+    "inspection_date": "2026-10-01",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン1号機",
+    "inspector_name": "整備 次郎",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.526027"
+  },
+  {
+    "inspection_date": "2026-10-01",
+    "inspection_type": "使用前",
+    "category_major": "フォークリフト",
+    "category_minor": "フォークリフト1号車",
+    "inspector_name": "運搬 三郎",
+    "department": "物流課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ブレーキの効き",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "タイヤの損傷・空気圧",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ホーン・警報の作動",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "前照灯・後退灯の点灯",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "フォーク・チェーンの損傷",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "油漏れはないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.538309"
+  },
+  {
+    "inspection_date": "2026-10-02",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン1号機",
+    "inspector_name": "点検 一郎",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.580109"
+  },
+  {
+    "inspection_date": "2026-10-02",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン2号機",
+    "inspector_name": "点検 一郎",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.596876"
+  },
+  {
+    "inspection_date": "2026-10-02",
+    "inspection_type": "使用前",
+    "category_major": "フォークリフト",
+    "category_minor": "フォークリフト1号車",
+    "inspector_name": "運搬 三郎",
+    "department": "物流課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ブレーキの効き",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "タイヤの損傷・空気圧",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ホーン・警報の作動",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "前照灯・後退灯の点灯",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "フォーク・チェーンの損傷",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "油漏れはないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.612705"
+  },
+  {
+    "inspection_date": "2026-10-05",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン1号機",
+    "inspector_name": "保全 花子",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.629455"
+  },
+  {
+    "inspection_date": "2026-10-05",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン2号機",
+    "inspector_name": "保全 花子",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.651573"
+  },
+  {
+    "inspection_date": "2026-10-05",
+    "inspection_type": "使用前",
+    "category_major": "フォークリフト",
+    "category_minor": "フォークリフト1号車",
+    "inspector_name": "運搬 三郎",
+    "department": "物流課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ブレーキの効き",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "タイヤの損傷・空気圧",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ホーン・警報の作動",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "前照灯・後退灯の点灯",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "フォーク・チェーンの損傷",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "油漏れはないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.670604"
+  },
+  {
+    "inspection_date": "2026-10-06",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン1号機",
+    "inspector_name": "整備 次郎",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.684778"
+  },
+  {
+    "inspection_date": "2026-10-06",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン2号機",
+    "inspector_name": "整備 次郎",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.700773"
+  },
+  {
+    "inspection_date": "2026-10-06",
+    "inspection_type": "使用前",
+    "category_major": "フォークリフト",
+    "category_minor": "フォークリフト1号車",
+    "inspector_name": "運搬 三郎",
+    "department": "物流課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ブレーキの効き",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "タイヤの損傷・空気圧",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ホーン・警報の作動",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "前照灯・後退灯の点灯",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "フォーク・チェーンの損傷",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "油漏れはないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.714944"
+  },
+  {
+    "inspection_date": "2026-10-07",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン1号機",
+    "inspector_name": "点検 一郎",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.732786"
+  },
+  {
+    "inspection_date": "2026-10-07",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン2号機",
+    "inspector_name": "点検 一郎",
+    "department": "設備保全課",
+    "general_remark": "2号機のブレーキ調整を設備保全課へ依頼した",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "止まるまでが少し長い",
+        "result": "A"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.749023"
+  },
+  {
+    "inspection_date": "2026-10-07",
+    "inspection_type": "使用前",
+    "category_major": "フォークリフト",
+    "category_minor": "フォークリフト1号車",
+    "inspector_name": "運搬 三郎",
+    "department": "物流課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ブレーキの効き",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "タイヤの損傷・空気圧",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ホーン・警報の作動",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "前照灯・後退灯の点灯",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "フォーク・チェーンの損傷",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "油漏れはないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.768830"
+  },
+  {
+    "inspection_date": "2026-10-08",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン1号機",
+    "inspector_name": "保全 花子",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.783492"
+  },
+  {
+    "inspection_date": "2026-10-08",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン2号機",
+    "inspector_name": "保全 花子",
+    "department": "設備保全課",
+    "general_remark": "2号機のブレーキ調整済み。動作に問題なし",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.799316"
+  },
+  {
+    "inspection_date": "2026-10-08",
+    "inspection_type": "使用前",
+    "category_major": "フォークリフト",
+    "category_minor": "フォークリフト1号車",
+    "inspector_name": "運搬 三郎",
+    "department": "物流課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ブレーキの効き",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "タイヤの損傷・空気圧",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ホーン・警報の作動",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "前照灯・後退灯の点灯",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "フォーク・チェーンの損傷",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "油漏れはないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.813921"
+  },
+  {
+    "inspection_date": "2026-10-13",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン1号機",
+    "inspector_name": "整備 次郎",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.830589"
+  },
+  {
+    "inspection_date": "2026-10-13",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン2号機",
+    "inspector_name": "整備 次郎",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.846018"
+  },
+  {
+    "inspection_date": "2026-10-13",
+    "inspection_type": "使用前",
+    "category_major": "フォークリフト",
+    "category_minor": "フォークリフト1号車",
+    "inspector_name": "運搬 三郎",
+    "department": "物流課",
+    "general_remark": "右前輪に空気を補充した",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ブレーキの効き",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "タイヤの損傷・空気圧",
+        "remark": "右前輪の空気圧が低め",
+        "result": "A"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ホーン・警報の作動",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "前照灯・後退灯の点灯",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "フォーク・チェーンの損傷",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "油漏れはないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.862014"
+  },
+  {
+    "inspection_date": "2026-10-14",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン1号機",
+    "inspector_name": "点検 一郎",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.877074"
+  },
+  {
+    "inspection_date": "2026-10-14",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン2号機",
+    "inspector_name": "点検 一郎",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.893220"
+  },
+  {
+    "inspection_date": "2026-10-14",
+    "inspection_type": "使用前",
+    "category_major": "フォークリフト",
+    "category_minor": "フォークリフト1号車",
+    "inspector_name": "運搬 三郎",
+    "department": "物流課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ブレーキの効き",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "タイヤの損傷・空気圧",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ホーン・警報の作動",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "前照灯・後退灯の点灯",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "フォーク・チェーンの損傷",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "油漏れはないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.909791"
+  },
+  {
+    "inspection_date": "2026-10-15",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン1号機",
+    "inspector_name": "保全 花子",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.926088"
+  },
+  {
+    "inspection_date": "2026-10-15",
+    "inspection_type": "使用前",
+    "category_major": "フォークリフト",
+    "category_minor": "フォークリフト1号車",
+    "inspector_name": "運搬 三郎",
+    "department": "物流課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ブレーキの効き",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "タイヤの損傷・空気圧",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ホーン・警報の作動",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "前照灯・後退灯の点灯",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "フォーク・チェーンの損傷",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "油漏れはないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.941602"
+  },
+  {
+    "inspection_date": "2026-10-16",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン1号機",
+    "inspector_name": "整備 次郎",
+    "department": "設備保全課",
+    "general_remark": "1号機の非常停止ボタンのカバー交換を手配した",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "非常停止ボタンのカバーが割れている",
+        "result": "△"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.957628"
+  },
+  {
+    "inspection_date": "2026-10-16",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン2号機",
+    "inspector_name": "整備 次郎",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.973114"
+  },
+  {
+    "inspection_date": "2026-10-16",
+    "inspection_type": "使用前",
+    "category_major": "フォークリフト",
+    "category_minor": "フォークリフト1号車",
+    "inspector_name": "運搬 三郎",
+    "department": "物流課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ブレーキの効き",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "タイヤの損傷・空気圧",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ホーン・警報の作動",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "前照灯・後退灯の点灯",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "フォーク・チェーンの損傷",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "油漏れはないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:01.989291"
+  },
+  {
+    "inspection_date": "2026-10-19",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン1号機",
+    "inspector_name": "点検 一郎",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:02.004129"
+  },
+  {
+    "inspection_date": "2026-10-19",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン2号機",
+    "inspector_name": "点検 一郎",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:02.032194"
+  },
+  {
+    "inspection_date": "2026-10-19",
+    "inspection_type": "使用前",
+    "category_major": "フォークリフト",
+    "category_minor": "フォークリフト1号車",
+    "inspector_name": "運搬 三郎",
+    "department": "物流課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ブレーキの効き",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "タイヤの損傷・空気圧",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ホーン・警報の作動",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "前照灯・後退灯の点灯",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "フォーク・チェーンの損傷",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "油漏れはないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:02.049963"
+  },
+  {
+    "inspection_date": "2026-10-20",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン1号機",
+    "inspector_name": "保全 花子",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:02.065799"
+  },
+  {
+    "inspection_date": "2026-10-20",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン2号機",
+    "inspector_name": "保全 花子",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:02.083721"
+  },
+  {
+    "inspection_date": "2026-10-20",
+    "inspection_type": "使用前",
+    "category_major": "フォークリフト",
+    "category_minor": "フォークリフト1号車",
+    "inspector_name": "運搬 三郎",
+    "department": "物流課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ブレーキの効き",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "タイヤの損傷・空気圧",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ホーン・警報の作動",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "前照灯・後退灯の点灯",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "フォーク・チェーンの損傷",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "油漏れはないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:02.102596"
+  },
+  {
+    "inspection_date": "2026-10-21",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン1号機",
+    "inspector_name": "整備 次郎",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:02.119082"
+  },
+  {
+    "inspection_date": "2026-10-21",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン2号機",
+    "inspector_name": "整備 次郎",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:02.136731"
+  },
+  {
+    "inspection_date": "2026-10-21",
+    "inspection_type": "使用前",
+    "category_major": "フォークリフト",
+    "category_minor": "フォークリフト1号車",
+    "inspector_name": "運搬 三郎",
+    "department": "物流課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ブレーキの効き",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "タイヤの損傷・空気圧",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ホーン・警報の作動",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "前照灯・後退灯の点灯",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "フォーク・チェーンの損傷",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "油漏れはないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:02.154557"
+  },
+  {
+    "inspection_date": "2026-10-22",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン1号機",
+    "inspector_name": "点検 一郎",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:02.170854"
+  },
+  {
+    "inspection_date": "2026-10-22",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン2号機",
+    "inspector_name": "点検 一郎",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:02.188695"
+  },
+  {
+    "inspection_date": "2026-10-22",
+    "inspection_type": "使用前",
+    "category_major": "フォークリフト",
+    "category_minor": "フォークリフト1号車",
+    "inspector_name": "運搬 三郎",
+    "department": "物流課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ブレーキの効き",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "タイヤの損傷・空気圧",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ホーン・警報の作動",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "前照灯・後退灯の点灯",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "フォーク・チェーンの損傷",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "油漏れはないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:02.207797"
+  },
+  {
+    "inspection_date": "2026-10-23",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン1号機",
+    "inspector_name": "保全 花子",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:02.226925"
+  },
+  {
+    "inspection_date": "2026-10-23",
+    "inspection_type": "使用前",
+    "category_major": "天井クレーン",
+    "category_minor": "天井クレーン2号機",
+    "inspector_name": "保全 花子",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "巻過防止装置は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ブレーキは正常に効くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "フックの外れ止めに損傷はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "ワイヤロープに素線切れ・キンクはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "押しボタンスイッチは正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "天井クレーン",
+        "inspection_item": "走行・横行時に異音はないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:02.245926"
+  },
+  {
+    "inspection_date": "2026-10-23",
+    "inspection_type": "使用前",
+    "category_major": "フォークリフト",
+    "category_minor": "フォークリフト1号車",
+    "inspector_name": "運搬 三郎",
+    "department": "物流課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ブレーキの効き",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "タイヤの損傷・空気圧",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "ホーン・警報の作動",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "前照灯・後退灯の点灯",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "フォーク・チェーンの損傷",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "油漏れはないか",
+        "remark": "",
+        "result": "✓"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:02.265240"
+  }
+]

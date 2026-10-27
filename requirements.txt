@@ -1,0 +1,7 @@
+flask
+filelock
+jpholiday
+reportlab
+pypdf>=6.16.1,<7
+pytest
+waitress

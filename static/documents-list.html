@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>文書一覧</title>
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+        #file-list {
+            list-style: none;
+            margin: 16px 0;
+            padding: 0;
+        }
+        .file-list-item {
+            padding: 16px 20px;
+            border-radius: 8px;
+            font-size: 20px;
+            cursor: pointer;
+            border-bottom: 1px solid #d2d2d7;
+        }
+        .file-list-item:hover {
+            background-color: #e8f0fe;
+        }
+        .no-files-msg {
+            padding: 16px;
+            color: #6e6e73;
+            font-size: 16px;
+        }
+        #list-content {
+            padding: 20px 40px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="app-wrapper">
+        <header id="app-header">
+            <h1 id="list-title">文書一覧</h1>
+            <div class="header-right">
+                <a href="/inspection?settings=1" class="btn btn-secondary">⚙ 設定</a>
+                <a id="btn-back" href="/documents" class="btn btn-secondary">← 戻る</a>
+                <a href="/" class="btn btn-secondary">← サイネージ</a>
+            </div>
+        </header>
+        <div id="list-content">
+            <ul id="file-list"></ul>
+        </div>
+    </div>
+    <script src="/inactivity.js"></script>
+    <script src="/documents-list.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+[
+  {
+    "inspection_date": "2026-09-10",
+    "inspection_type": "月例",
+    "category_major": "コンプレッサー",
+    "category_minor": "エアコンプレッサー1号機",
+    "inspector_name": "整備 次郎",
+    "department": "設備保全課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "コンプレッサー",
+        "inspection_item": "吐出圧力",
+        "remark": "",
+        "result": "0.69"
+      },
+      {
+        "equipment_name": "コンプレッサー",
+        "inspection_item": "安全弁は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "コンプレッサー",
+        "inspection_item": "ドレンを排出したか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "コンプレッサー",
+        "inspection_item": "吸込フィルターの汚れ",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "コンプレッサー",
+        "inspection_item": "異音・振動はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "コンプレッサー",
+        "inspection_item": "運転時間",
+        "remark": "",
+        "result": "2640"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:02.321437"
+  },
+  {
+    "inspection_date": "2026-09-15",
+    "inspection_type": "月例",
+    "category_major": "フォークリフト",
+    "category_minor": "フォークリフト1号車",
+    "inspector_name": "運搬 三郎",
+    "department": "物流課",
+    "general_remark": "",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "油漏れはないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "バッテリー液の量",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "作動油の量",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "マストへの給油",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "フォークリフト",
+        "inspection_item": "アワーメーター",
+        "remark": "",
+        "result": "3420"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:02.339541"
+  }
+]

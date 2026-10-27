@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# セキュリティ: 管理者キーをバージョン管理に含めない
+admin_key.txt
+
+# ログ
+logs/
+
+# バックアップ
+backups/
+
+# 点検結果データ
+results/
+
+# ロックファイル
+*.lock
+
+# IDE
+.vscode/
+.idea/
+
+# 音声再生用のブラウザ設定（起動.batが自動作成）
+.browser/
+
+# 様式PDFは現場ごとに違い実データを含むため管理しない
+forms/
+
+# サイネージで表示するPDF・画像・動画は現場ごとに違う実データのため管理しない
+signage_pdfs/
+
+# 配布用のサンプルは管理する（上の forms/ results/ の除外から外す）
+!samples/forms/
+!samples/results/
+
+# 設定ファイルは現場ごとの実際の設定（フォルダの場所など）を含むため管理しない。
+# 無ければ既定の設定で起動し、画面で設定を保存したときに作られる。
+config.json

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>文書掲示</title>
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+        #doc-main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            padding: 40px 60px;
+        }
+        #categories-container {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            width: 100%;
+            max-width: 600px;
+        }
+        .doc-category-btn {
+            width: 100%;
+            padding: 20px 32px;
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 4px;
+            border-radius: 12px;
+            border: none;
+            background-color: #0071e3;
+            color: white;
+            cursor: pointer;
+        }
+        .doc-category-btn:hover {
+            background-color: #0077ed;
+        }
+        .doc-category-btn:disabled {
+            background-color: #c7c7cc;
+            color: #8e8e93;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <div id="app-wrapper">
+        <header id="app-header">
+            <h1>文書掲示</h1>
+            <div class="header-right">
+                <a href="/inspection?settings=1" class="btn btn-secondary">⚙ 設定</a>
+                <a href="/" class="btn btn-secondary">← サイネージに戻る</a>
+            </div>
+        </header>
+        <div id="doc-main">
+            <div id="categories-container"></div>
+        </div>
+    </div>
+    <script src="/inactivity.js"></script>
+    <script src="/documents.js"></script>
+</body>
+</html>

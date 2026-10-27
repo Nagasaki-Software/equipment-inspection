@@ -1,0 +1,895 @@
+/* =============================================================
+   設備点検システム - スタイルシート（管理者3名・時計・完了状態対応版）
+   ============================================================= */
+
+:root {
+    --color-primary: #1a3a5c;
+    --color-accent: #0096d6;
+    --color-bg: #f0f4f8;
+    --color-sidebar-bg: #1a3a5c;
+    --color-sidebar-text: #e8f0f8;
+    --color-white: #ffffff;
+    --color-border: #c8d8e8;
+    --sidebar-width: 220px;
+    --header-height: 60px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'BIZ UDPGothic', 'BIZ UDP ゴシック', 'Meiryo', 'メイリオ', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    background: var(--color-bg);
+    color: #2c3e50;
+}
+
+/* ========== レイアウト ========== */
+#app-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--header-height);
+    background: var(--color-primary);
+    padding: 0 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+#app-header h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#main-area {
+    display: flex;
+    flex: 1;
+    overflow-y: auto;
+    align-items: stretch;
+    min-height: calc(100vh - var(--header-height));
+}
+
+
+/* ========== サイドバー ========== */
+#sidebar {
+    width: var(--sidebar-width);
+    min-height: 100%;
+    background: var(--color-sidebar-bg);
+    color: var(--color-sidebar-text);
+    display: flex;
+    flex-direction: column;
+    padding: 12px 14px;
+    gap: 12px;
+    overflow-y: auto;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+#sb-app-version {
+    margin-top: auto;   /* 欄のいちばん下に寄せる */
+    font-size: 12px;
+    color: #8fa6bd;
+    text-align: center;
+}
+
+.sidebar-section h3 {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #88a8c8;
+    border-bottom: 1px solid #2d5a8a;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+}
+
+.info-row {
+    margin-bottom: 6px;
+}
+
+/* 管理者情報: 各管理者の間に余白と区切り線を追加する */
+#sb-managers-list .info-row:not(:last-child) {
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px dashed #2d5a8a;
+}
+
+.info-label {
+    font-size: 15px;
+    color: #88a8c8;
+    margin-bottom: 2px;
+}
+
+.info-role {
+    font-size: 17px;
+    color: #f0c060;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.info-value {
+    font-size: 20px;
+    color: var(--color-sidebar-text);
+    font-weight: 500;
+}
+
+/* 時計 */
+#clock-display {
+    font-size: 19px;
+    font-weight: 700;
+    color: #a8e0ff;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 6px 0;
+    border-bottom: 1px solid #2d5a8a;
+    font-variant-numeric: tabular-nums;
+}
+
+/* ========== コンテンツエリア ========== */
+#content-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+
+/* ========== タブ ========== */
+#mode-tabs {
+    display: flex;
+    background: white;
+    border-bottom: 2px solid var(--color-border);
+    padding: 0 20px;
+}
+
+.mode-tab {
+    padding: 12px 24px;
+    cursor: pointer;
+    font-weight: 700;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -2px;
+    color: #6888a8;
+    transition: all 0.2s;
+}
+
+.mode-tab:hover {
+    color: var(--color-accent);
+}
+
+.mode-tab.active {
+    color: var(--color-primary);
+    border-bottom-color: var(--color-accent);
+}
+
+#major-tabs {
+    display: flex;
+    gap: 4px;
+    padding: 10px 20px 0;
+    background: white;
+    flex-wrap: wrap;
+}
+
+.major-tab {
+    padding: 7px 18px;
+    border-radius: 6px 6px 0 0;
+    cursor: pointer;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-bottom: none;
+    font-weight: 500;
+    color: #4a6888;
+    transition: all 0.2s;
+}
+
+.major-tab:hover {
+    background: #dde8f0;
+}
+
+.major-tab.active {
+    background: var(--color-primary);
+    color: white;
+    border-color: var(--color-primary);
+}
+
+#minor-tabs {
+    display: flex;
+    gap: 4px;
+    padding: 4px 20px 0 30px;
+    background: white;
+    border-bottom: 1px solid var(--color-border);
+    flex-wrap: wrap;
+}
+
+.minor-tab {
+    padding: 5px 14px;
+    border-radius: 4px 4px 0 0;
+    cursor: pointer;
+    font-size: 12px;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-bottom: none;
+    color: #6888a8;
+    transition: all 0.2s;
+}
+
+.minor-tab:hover {
+    background: #dde8f0;
+}
+
+.minor-tab.active {
+    background: var(--color-accent);
+    color: white;
+    border-color: var(--color-accent);
+}
+
+/* ========== コントロールバー ========== */
+#control-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 8px 20px;
+    background: white;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.control-label {
+    font-size: 12px;
+    color: #6888a8;
+    font-weight: 500;
+}
+
+select,
+input[type="text"],
+input[type="date"],
+input[type="month"] {
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-family: inherit;
+    font-size: 13px;
+    outline: none;
+    background: white;
+    transition: border 0.2s;
+}
+
+select:focus,
+input:focus {
+    border-color: var(--color-accent);
+}
+
+/* ========== 点検完了バナー ========== */
+#completed-banner {
+    background: #e8f8f0;
+    border: 2px solid #2ecc71;
+    border-radius: 8px;
+    margin: 12px 20px 0;
+    padding: 14px 20px;
+}
+
+.completed-msg {
+    font-size: 16px;
+    font-weight: 700;
+    color: #27ae60;
+    text-align: center;
+}
+
+/* ========== 点検表 ========== */
+#inspection-panel {
+    flex: 1;
+    overflow-y: auto;
+    padding: 12px 20px;
+}
+
+/* 完了後グレーアウト */
+#inspection-panel.completed .inspection-table-wrap {
+    opacity: 0.4;
+    pointer-events: none;
+    filter: grayscale(0.5);
+}
+
+.inspection-table-wrap {
+    overflow-x: auto;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+}
+
+table.inspection-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    min-width: 600px;
+}
+
+table.inspection-table thead th {
+    background: var(--color-primary);
+    color: white;
+    padding: 10px 12px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+table.inspection-table tbody tr {
+    border-bottom: 1px solid var(--color-border);
+    transition: background 0.15s;
+}
+
+table.inspection-table tbody tr:nth-child(even) {
+    background: #f7fafd;
+}
+
+table.inspection-table tbody tr:hover {
+    background: #b3d9ff;
+}
+
+table.inspection-table td {
+    padding: 8px 12px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+/* 判定ボタン（✓ 良 / A 要調整 / △ 修理 / × 要取替 / ー 対象外） */
+.result-btns {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.btn-ok,
+.btn-adjust,
+.btn-repair,
+.btn-replace {
+    width: 36px;
+    height: 36px;
+    flex: 0 0 auto;
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-ok {
+    border-color: #2ecc71;
+    color: #2ecc71;
+}
+
+.btn-ok:hover,
+.btn-ok.selected {
+    background: #2ecc71;
+    color: white;
+}
+
+/* 要調整：軽い異常。オレンジ */
+.btn-adjust {
+    border-color: #f39c12;
+    color: #f39c12;
+}
+
+.btn-adjust:hover,
+.btn-adjust.selected {
+    background: #f39c12;
+    color: white;
+}
+
+/* 修理：中程度の異常。濃いオレンジ */
+.btn-repair {
+    border-color: #e67e22;
+    color: #e67e22;
+}
+
+.btn-repair:hover,
+.btn-repair.selected {
+    background: #e67e22;
+    color: white;
+}
+
+/* 要取替：最も重い異常。赤 */
+.btn-replace {
+    border-color: #e74c3c;
+    color: #e74c3c;
+}
+
+.btn-replace:hover,
+.btn-replace.selected {
+    background: #e74c3c;
+    color: white;
+}
+
+/* 「ー」ボタン */
+.btn-dash {
+    width: 36px;
+    height: 36px;
+    flex: 0 0 auto;
+    border: 2px solid #95a5a6;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s;
+    background: white;
+    color: #95a5a6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-dash:hover,
+.btn-dash.selected {
+    background: #95a5a6;
+    color: white;
+}
+
+input.remark-input {
+    width: 100%;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-family: inherit;
+}
+
+/* テーブルフッター行（点検者・保存ボタン） */
+.table-foot-row {
+    background: #eef4fb !important;
+    border-top: 2px solid var(--color-border);
+}
+
+.table-foot-row td {
+    padding: 12px 14px;
+    vertical-align: middle;
+}
+
+.table-foot-label {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-primary);
+    width: 120px;
+}
+
+.table-foot-action {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* ========== カレンダー ========== */
+#calendar-section {
+    padding: 14px 20px;
+    border-top: 1px solid var(--color-border);
+}
+
+#calendar-section h3 {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 8px;
+}
+
+#calendar-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.cal-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid var(--color-border);
+    background: white;
+    cursor: pointer;
+    transition: all 0.15s;
+    position: relative;
+    user-select: none;
+}
+
+.cal-day:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.cal-day.selected {
+    outline: 2px solid var(--color-accent);
+}
+
+.cal-day-num {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.cal-day-wd {
+    font-size: 10px;
+    color: #888;
+    margin-top: 2px;
+}
+
+.cal-badge {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    font-size: 8px;
+    font-weight: 700;
+    padding: 1px 3px;
+    border-radius: 3px;
+}
+
+.cal-day.saturday .cal-day-num {
+    color: #2980b9;
+}
+
+.cal-day.saturday {
+    border-color: #aed6f1;
+    background: #eaf4fb;
+}
+
+.cal-day.sunday .cal-day-num,
+.cal-day.holiday .cal-day-num {
+    color: #e74c3c;
+}
+
+.cal-day.sunday,
+.cal-day.holiday {
+    border-color: #f5b7b1;
+    background: #fdf2f2;
+}
+
+.cal-day.custom-holiday {
+    border-color: #f9c870;
+    background: #fef9ee;
+}
+
+.cal-day.custom-holiday .cal-day-num {
+    color: #d68910;
+}
+
+.badge-holiday {
+    background: #e74c3c;
+    color: white;
+}
+
+.badge-custom {
+    background: #f39c12;
+    color: white;
+}
+
+.badge-done {
+    background: #27ae60;
+    color: white;
+}
+
+/* 凡例 */
+.legend-box {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.saturday-bg {
+    background: #eaf4fb;
+    border: 1px solid #aed6f1;
+}
+
+.sunday-bg {
+    background: #fdf2f2;
+    border: 1px solid #f5b7b1;
+}
+
+.custom-bg {
+    background: #fef9ee;
+    border: 1px solid #f9c870;
+}
+
+/* ========== ボタン ========== */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 18px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    transition: all 0.18s;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+.btn-primary {
+    background: var(--color-accent);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #007ab8;
+}
+
+.btn-secondary {
+    background: white;
+    color: var(--color-primary);
+    border: 1px solid var(--color-border);
+}
+
+.btn-secondary:hover {
+    background: var(--color-bg);
+}
+
+.btn-success {
+    background: #2ecc71;
+    color: white;
+}
+
+.btn-success:hover {
+    background: #27ae60;
+}
+
+#action-bar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    background: white;
+    border-top: 1px solid var(--color-border);
+}
+
+.save-status {
+    font-size: 12px;
+    color: #6888a8;
+    margin-left: auto;
+}
+
+/* ========== 設定モーダル ========== */
+#settings-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+}
+
+#settings-overlay.open {
+    display: flex;
+}
+
+#settings-modal {
+    background: white;
+    border-radius: 12px;
+    width: 540px;
+    max-width: 95vw;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 24px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.25);
+    animation: fadeIn 0.2s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+#settings-modal h2 {
+    font-size: 16px;
+    color: var(--color-primary);
+    margin-bottom: 18px;
+}
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+.form-row label {
+    display: block;
+    font-size: 12px;
+    color: #6888a8;
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.form-row input[type="text"] {
+    width: 100%;
+}
+
+.form-row-inline {
+    display: flex;
+    gap: 10px;
+}
+
+.form-row.half {
+    flex: 1;
+}
+
+.manager-block {
+    background: #f7fafd;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+}
+
+.manager-block-title {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 8px;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+/* ========== 印刷プレビュー専用 ========== */
+@media print {
+
+    #sidebar,
+    #mode-tabs,
+    #major-tabs,
+    #minor-tabs,
+    #control-bar,
+    #action-bar,
+    #calendar-section,
+    #settings-overlay,
+    .result-btns,
+    .remark-input,
+    #completed-banner {
+        display: none !important;
+    }
+
+    #app-header {
+        background: white;
+        box-shadow: none;
+    }
+
+    #app-header h1 {
+        color: black;
+    }
+
+    #content-area {
+        overflow: visible;
+    }
+
+    #inspection-panel {
+        overflow: visible;
+        padding: 0;
+    }
+
+    table.inspection-table thead th {
+        background: #ddd;
+        color: black;
+    }
+
+    body {
+        background: white;
+    }
+}
+
+/* ===== 数値入力項目 ===== */
+.result-number {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+}
+
+.num-input {
+    width: 100px;
+    padding: 8px 10px;
+    font-size: 18px;
+    text-align: right;
+    border: 1px solid #b7c3cd;
+    border-radius: 4px;
+}
+
+.num-input:focus {
+    outline: none;
+    border-color: #0096d6;
+    box-shadow: 0 0 0 2px rgba(0, 150, 214, 0.2);
+}
+
+.num-input:disabled { background: #eef1f4; color: #888; }
+
+.num-unit { font-size: 13px; color: #547a9c; min-width: 34px; text-align: left; }
+
+.num-prev {
+    font-size: 11px;
+    color: #96a5b2;
+    text-align: center;
+    margin-top: 2px;
+    min-height: 14px;
+}
+
+/* ===== 数値入力用のテンキー ===== */
+.result-number { position: relative; }
+
+.keypad {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 50;
+    display: grid;
+    grid-template-columns: repeat(3, 58px);
+    gap: 4px;
+    padding: 8px;
+    margin-top: 4px;
+    background: #fff;
+    border: 1px solid #b7c3cd;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.keypad button {
+    height: 46px;
+    font-size: 20px;
+    border: 1px solid #d5dbe0;
+    border-radius: 5px;
+    background: #f7f9fb;
+    cursor: pointer;
+}
+
+.keypad button:active { background: #d5e8f7; }
+.keypad button.wide { grid-column: span 3; height: 38px; font-size: 14px; }
+.keypad button.ok { background: #0096d6; color: #fff; border-color: #0096d6; }
+
+/* 下に入りきらないときは入力欄の上に出す */
+.keypad.above {
+    top: auto;
+    bottom: 100%;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>デジタルサイネージ</title>
+    <link rel="stylesheet" href="/signage.css" />
+</head>
+
+<body>
+    <div id="signage-container">
+
+        <!-- PDFキャンバス -->
+        <canvas id="pdf-canvas"></canvas>
+
+        <!-- 動画・画像（PDF以外のときに使う） -->
+        <video id="media-video" playsinline preload="auto"></video>
+        <img id="media-image" alt="" />
+
+        <!-- 音声を出すボタン（ブラウザに音付き再生を拒否されたときだけ表示） -->
+        <button id="btn-sound" type="button">🔊 音を出す</button>
+
+        <!-- PDF未設定・読み込みエラー時のメッセージ -->
+        <div id="no-pdf-msg">
+            <div class="no-pdf-icon">📋</div>
+            <div class="no-pdf-text">表示するPDFファイルがありません</div>
+            <div class="no-pdf-hint">設定でサイネージフォルダを指定し、PDFファイルを配置してください</div>
+        </div>
+
+        <!-- ナビゲーション矢印 -->
+        <button id="btn-prev" class="nav-btn nav-prev">&#10094;</button>
+        <button id="btn-next" class="nav-btn nav-next">&#10095;</button>
+
+        <!-- 進捗バー -->
+        <div id="progress-bar">
+            <div id="progress-fill"></div>
+        </div>
+
+        <!-- スライドカウンター -->
+        <div id="slide-counter"></div>
+
+        <!-- 設定パネル（歯車ボタンで開閉） -->
+        <button id="btn-signage-cfg" title="表示設定">⚙</button>
+        <div id="signage-cfg-panel">
+            <div class="cfg-panel-title">サイネージ設定</div>
+            <div class="cfg-row">
+                <label>表示秒数</label>
+                <input type="number" id="cfg-display-sec" min="3" max="300" value="10" />
+                <span>秒</span>
+            </div>
+            <div class="cfg-row">
+                <label>スリープ開始</label>
+                <input type="time" id="cfg-sleep-start" value="18:00" />
+            </div>
+            <div class="cfg-row">
+                <label>スリープ終了</label>
+                <input type="time" id="cfg-sleep-end" value="08:00" />
+            </div>
+            <div class="cfg-row">
+                <label>PDFフォルダ</label>
+                <input type="text" id="cfg-folder-path" placeholder="空欄=signage_pdfsフォルダ" />
+            </div>
+            <div class="cfg-row" id="cfg-admin-key-row" style="display:none;">
+                <label>管理者キー</label>
+                <input type="password" id="cfg-admin-key" placeholder="別PCからの操作時のみ入力" />
+            </div>
+            <div class="cfg-row">
+                <label>Web1名称</label>
+                <input type="text" id="cfg-web1-label" placeholder="Web1" />
+            </div>
+            <div class="cfg-row">
+                <label>Web1 URL</label>
+                <input type="text" id="cfg-web1-url" placeholder="https://..." />
+            </div>
+            <div class="cfg-row">
+                <label>Web2名称</label>
+                <input type="text" id="cfg-web2-label" placeholder="Web2" />
+            </div>
+            <div class="cfg-row">
+                <label>Web2 URL</label>
+                <input type="text" id="cfg-web2-url" placeholder="https://..." />
+            </div>
+            <div class="cfg-row">
+                <label>操作なし復帰</label>
+                <input type="number" id="cfg-idle-sec" min="10" max="3600" value="60" />
+                <span>秒</span>
+            </div>
+            <div class="cfg-row">
+                <label>ニュース速度</label>
+                <input type="number" id="cfg-news-speed" min="20" max="500" value="100" />
+                <span>px/秒</span>
+            </div>
+            <div class="cfg-row">
+                <label>Web最大滞在</label>
+                <input type="number" id="cfg-web-max-stay" min="60" max="3600" value="300" />
+                <span>秒</span>
+            </div>
+            <div class="cfg-section-title">文書掲示</div>
+            <div class="cfg-row">
+                <label>ボタン数（1〜5）</label>
+                <input type="number" id="cfg-doc-btn-count" min="1" max="5" value="3" />
+            </div>
+            <div class="cfg-doc-row">
+                <input type="text" id="cfg-doc-label-0" placeholder="ラベル 1" />
+                <input type="text" id="cfg-doc-folder-0" placeholder="フォルダパス" />
+            </div>
+            <div class="cfg-doc-row">
+                <input type="text" id="cfg-doc-label-1" placeholder="ラベル 2" />
+                <input type="text" id="cfg-doc-folder-1" placeholder="フォルダパス" />
+            </div>
+            <div class="cfg-doc-row">
+                <input type="text" id="cfg-doc-label-2" placeholder="ラベル 3" />
+                <input type="text" id="cfg-doc-folder-2" placeholder="フォルダパス" />
+            </div>
+            <div class="cfg-doc-row">
+                <input type="text" id="cfg-doc-label-3" placeholder="ラベル 4" />
+                <input type="text" id="cfg-doc-folder-3" placeholder="フォルダパス" />
+            </div>
+            <div class="cfg-doc-row">
+                <input type="text" id="cfg-doc-label-4" placeholder="ラベル 5" />
+                <input type="text" id="cfg-doc-folder-4" placeholder="フォルダパス" />
+            </div>
+
+            <div id="cfg-save-status" style="display:none; font-size:12px; padding:2px 0;"></div>
+            <div class="cfg-row cfg-row-btn">
+                <button id="cfg-apply-btn">保存して適用</button>
+            </div>
+        </div>
+
+        <!-- 他システムへのナビゲーション -->
+        <div id="signage-nav-btns">
+            <a href="/inspection" id="btn-to-inspection">📋 点検システム</a>
+            <a href="#" id="btn-to-web1" style="display:none;">🌐 Web1</a>
+            <a href="#" id="btn-to-web2" style="display:none;">🌐 Web2</a>
+            <a href="/documents" id="btn-to-documents">📄 文書掲示</a>
+        </div>
+
+        <!-- ニューステロップ -->
+        <div id="news-ticker">
+            <div id="news-label">
+                <span class="news-icon">i</span>
+                <span class="news-label-text">News topics</span>
+            </div>
+            <div id="news-scroll">
+                <div id="news-track"></div>
+            </div>
+        </div>
+
+        <!-- スリープオーバーレイ -->
+        <div id="sleep-overlay">
+            <div id="sleep-content">
+                <div id="sleep-clock"></div>
+                <div id="sleep-date"></div>
+                <div id="sleep-msg">画面をタッチまたはクリックして起動</div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="module" src="/signage.js"></script>
+</body>
+
+</html>

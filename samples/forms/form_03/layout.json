@@ -1,0 +1,109 @@
+{
+  "form_name": "フォークリフト 月例点検記録",
+  "period": "single",
+  "inspection_type": "月例",
+  "targets": [
+    "フォークリフト1号車"
+  ],
+  "default_font_size": 10,
+  "fields": [
+    {
+      "source": "meta.inspection_date",
+      "page": 0,
+      "x": 365.5,
+      "y": 723.4,
+      "font_size": 10
+    },
+    {
+      "source": "meta.inspector",
+      "page": 0,
+      "x": 108,
+      "y": 697.4,
+      "font_size": 10
+    },
+    {
+      "source": "meta.department",
+      "page": 0,
+      "x": 365.5,
+      "y": 697.4,
+      "font_size": 10
+    },
+    {
+      "source": "item:フォークリフト1号車|油漏れはないか",
+      "page": 0,
+      "x": 290,
+      "y": 615.0,
+      "font_size": 11
+    },
+    {
+      "source": "remark:フォークリフト1号車|油漏れはないか",
+      "page": 0,
+      "x": 348,
+      "y": 615.8,
+      "font_size": 9
+    },
+    {
+      "source": "item:フォークリフト1号車|バッテリー液の量",
+      "page": 0,
+      "x": 290,
+      "y": 581.0,
+      "font_size": 11
+    },
+    {
+      "source": "remark:フォークリフト1号車|バッテリー液の量",
+      "page": 0,
+      "x": 348,
+      "y": 581.8,
+      "font_size": 9
+    },
+    {
+      "source": "item:フォークリフト1号車|作動油の量",
+      "page": 0,
+      "x": 290,
+      "y": 547.0,
+      "font_size": 11
+    },
+    {
+      "source": "remark:フォークリフト1号車|作動油の量",
+      "page": 0,
+      "x": 348,
+      "y": 547.8,
+      "font_size": 9
+    },
+    {
+      "source": "item:フォークリフト1号車|マストへの給油",
+      "page": 0,
+      "x": 290,
+      "y": 513.0,
+      "font_size": 11
+    },
+    {
+      "source": "remark:フォークリフト1号車|マストへの給油",
+      "page": 0,
+      "x": 348,
+      "y": 513.8,
+      "font_size": 9
+    },
+    {
+      "source": "item:フォークリフト1号車|アワーメーター",
+      "page": 0,
+      "x": 290,
+      "y": 479.0,
+      "font_size": 11
+    },
+    {
+      "source": "remark:フォークリフト1号車|アワーメーター",
+      "page": 0,
+      "x": 348,
+      "y": 479.8,
+      "font_size": 9
+    },
+    {
+      "source": "meta.general_remark",
+      "page": 0,
+      "x": 48,
+      "y": 418,
+      "font_size": 10
+    }
+  ]
+}

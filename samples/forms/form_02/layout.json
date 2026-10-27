@@ -1,0 +1,87 @@
+{
+  "form_name": "エアコンプレッサー 月例点検表",
+  "period": "year",
+  "inspection_type": "月例",
+  "targets": [
+    "エアコンプレッサー1号機"
+  ],
+  "axis": {
+    "count": 12,
+    "step_x": 50,
+    "step_y": 0
+  },
+  "default_font_size": 10,
+  "fields": [
+    {
+      "source": "meta.inspection_date",
+      "page": 0,
+      "x": 225.2,
+      "y": 481.7,
+      "on_axis": true,
+      "font_size": 6.5
+    },
+    {
+      "source": "item:エアコンプレッサー1号機|吐出圧力",
+      "page": 0,
+      "x": 233.5,
+      "y": 456.4,
+      "on_axis": true,
+      "font_size": 10
+    },
+    {
+      "source": "item:エアコンプレッサー1号機|安全弁は正常に働くか",
+      "page": 0,
+      "x": 240.0,
+      "y": 430.4,
+      "on_axis": true,
+      "font_size": 10
+    },
+    {
+      "source": "item:エアコンプレッサー1号機|ドレンを排出したか",
+      "page": 0,
+      "x": 240.0,
+      "y": 404.4,
+      "on_axis": true,
+      "font_size": 10
+    },
+    {
+      "source": "item:エアコンプレッサー1号機|吸込フィルターの汚れ",
+      "page": 0,
+      "x": 240.0,
+      "y": 378.4,
+      "on_axis": true,
+      "font_size": 10
+    },
+    {
+      "source": "item:エアコンプレッサー1号機|異音・振動はないか",
+      "page": 0,
+      "x": 240.0,
+      "y": 352.4,
+      "on_axis": true,
+      "font_size": 10
+    },
+    {
+      "source": "item:エアコンプレッサー1号機|運転時間",
+      "page": 0,
+      "x": 231.6,
+      "y": 326.4,
+      "on_axis": true,
+      "font_size": 10
+    },
+    {
+      "source": "meta.inspector",
+      "page": 0,
+      "x": 229.0,
+      "y": 301.3,
+      "on_axis": true,
+      "font_size": 7.5
+    },
+    {
+      "source": "meta.year",
+      "page": 0,
+      "x": 302,
+      "y": 556,
+      "font_size": 12
+    }
+  ]
+}

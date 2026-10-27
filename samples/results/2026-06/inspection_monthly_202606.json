@@ -1,0 +1,51 @@
+[
+  {
+    "inspection_date": "2026-06-10",
+    "inspection_type": "月例",
+    "category_major": "コンプレッサー",
+    "category_minor": "エアコンプレッサー1号機",
+    "inspector_name": "整備 次郎",
+    "department": "設備保全課",
+    "general_remark": "吸込フィルターを清掃した",
+    "building_name": "サンプル工業 第一工場",
+    "results": [
+      {
+        "equipment_name": "コンプレッサー",
+        "inspection_item": "吐出圧力",
+        "remark": "",
+        "result": "0.70"
+      },
+      {
+        "equipment_name": "コンプレッサー",
+        "inspection_item": "安全弁は正常に働くか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "コンプレッサー",
+        "inspection_item": "ドレンを排出したか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "コンプレッサー",
+        "inspection_item": "吸込フィルターの汚れ",
+        "remark": "汚れあり。清掃した",
+        "result": "A"
+      },
+      {
+        "equipment_name": "コンプレッサー",
+        "inspection_item": "異音・振動はないか",
+        "remark": "",
+        "result": "✓"
+      },
+      {
+        "equipment_name": "コンプレッサー",
+        "inspection_item": "運転時間",
+        "remark": "",
+        "result": "2160"
+      }
+    ],
+    "submitted_at": "2026-10-25T14:26:02.307251"
+  }
+]

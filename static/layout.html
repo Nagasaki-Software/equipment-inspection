@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>様式レイアウト</title>
+    <link rel="stylesheet" href="/layout.css" />
+</head>
+
+<body>
+    <header id="layout-header">
+        <label>様式</label>
+        <select id="form-select"></select>
+        <button id="btn-new-form" type="button">新しい様式を追加</button>
+        <label for="display-month">月</label>
+        <input type="month" id="display-month" />
+        <button id="btn-preview" type="button">試し刷り</button>
+        <button id="btn-save" type="button">保存</button>
+        <button id="btn-delete-form" type="button">この様式を削除</button>
+        <span id="save-status"></span>
+        <a href="/inspection" id="btn-back">点検画面へ戻る</a>
+    </header>
+
+    <div id="forms-hint">
+        <span class="hint-label">様式フォルダ</span>
+        <code id="forms-dir-path">読み込み中...</code>
+        <span class="hint-sep">|</span>
+        <span class="hint-rule">フォルダ名（様式ID）は<strong>アプリが自動で付けます</strong>（form_01、form_02…）。様式フォルダの<strong>直下</strong>に作られます。
+            手でフォルダを作る場合だけ、半角英数字と _ のみ・64文字以内（日本語・空白・ハイフン・パスは不可）にしてください。</span>
+    </div>
+
+    <main id="layout-main">
+        <aside id="item-panel">
+            <div class="panel-title">配置する項目</div>
+            <div id="place-progress"></div>
+            <div id="item-list"></div>
+        </aside>
+
+        <section id="pdf-panel">
+            <div id="page-bar">
+                <button id="btn-page-prev" type="button">◀</button>
+                <span id="page-label">- / -</span>
+                <button id="btn-page-next" type="button">▶</button>
+            </div>
+            <div id="pdf-notice" hidden></div>
+            <div id="canvas-wrap">
+                <canvas id="form-canvas"></canvas>
+                <div id="marker-layer"></div>
+            </div>
+        </section>
+
+        <aside id="prop-panel">
+            <div class="panel-title">選択中の設定</div>
+            <div id="prop-body">
+                <p class="hint">左の一覧から項目を選び、様式の上をクリックすると配置されます。</p>
+            </div>
+        </aside>
+    </main>
+
+    <footer id="axis-bar">
+        <span>並び方：</span>
+        <button id="btn-axis-first" type="button">1つ目のマスを指定</button>
+        <button id="btn-axis-second" type="button">2つ目のマスを指定</button>
+        <label for="axis-step-x">ズレ x</label>
+        <input type="number" id="axis-step-x" step="0.1" />
+        <label for="axis-step-y">y</label>
+        <input type="number" id="axis-step-y" step="0.1" />
+        <span id="axis-step-mm"></span>
+        <label>マスの数</label>
+        <input type="number" id="axis-count" min="1" max="400" value="12" />
+    </footer>
+
+    <div id="wizard-overlay" hidden>
+        <div id="wizard-modal">
+            <div id="wizard-head">
+                <span id="wizard-title">新しい様式を追加</span>
+                <span id="wizard-step">手順 1 / 4</span>
+            </div>
+            <div id="wizard-bar"><div id="wizard-bar-fill"></div></div>
+            <div id="wizard-body"></div>
+            <div id="wizard-error" hidden></div>
+            <div id="wizard-foot">
+                <button id="wizard-cancel" type="button">やめる</button>
+                <span class="wizard-spacer"></span>
+                <button id="wizard-back" type="button">戻る</button>
+                <button id="wizard-next" type="button">次へ</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="copy-overlay" hidden>
+        <div id="copy-modal">
+            <div id="copy-head">機器ごと複製</div>
+            <div id="copy-body">
+                <div class="copy-row"><label for="copy-from">複製元</label>
+                    <select id="copy-from"></select></div>
+                <div class="copy-row"><label for="copy-to">複製先</label>
+                    <select id="copy-to"></select></div>
+                <div class="copy-row"><label for="copy-dx">X方向にずらす量</label>
+                    <input type="number" id="copy-dx" step="0.1" value="0" />
+                    <span class="hint">右が正</span></div>
+                <div class="copy-row"><label for="copy-dy">Y方向にずらす量</label>
+                    <input type="number" id="copy-dy" step="0.1" value="-20" />
+                    <span class="hint">上が正。下にずらすなら負の数</span></div>
+            </div>
+            <div id="copy-error" hidden></div>
+            <div id="copy-foot">
+                <button id="copy-cancel" type="button">やめる</button>
+                <span class="wizard-spacer"></span>
+                <button id="copy-ok" type="button">複製</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/layout.js"></script>
+</body>
+
+</html>

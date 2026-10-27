@@ -1,0 +1,145 @@
+{
+  "form_name": "天井クレーン 作業開始前点検表",
+  "period": "month",
+  "inspection_type": "使用前",
+  "targets": [
+    "天井クレーン1号機",
+    "天井クレーン2号機"
+  ],
+  "axis": {
+    "count": 31,
+    "step_x": 19.5,
+    "step_y": 0
+  },
+  "default_font_size": 9,
+  "fields": [
+    {
+      "source": "meta.month_prev",
+      "page": 0,
+      "x": 221.5,
+      "y": 510.5,
+      "on_axis": true,
+      "font_size": 7
+    },
+    {
+      "source": "meta.month_start",
+      "page": 0,
+      "x": 221.5,
+      "y": 510.5,
+      "on_axis": true,
+      "font_size": 7
+    },
+    {
+      "source": "meta.day",
+      "page": 0,
+      "x": 229.8,
+      "y": 497.0,
+      "on_axis": true,
+      "font_size": 8,
+      "circle_radius": 7.5
+    },
+    {
+      "source": "meta.weekday",
+      "page": 0,
+      "x": 229.8,
+      "y": 481.0,
+      "on_axis": true,
+      "font_size": 7.5
+    },
+    {
+      "source": "target:天井クレーン1号機",
+      "page": 0,
+      "x": 225.2,
+      "y": 461.8,
+      "on_axis": true,
+      "font_size": 9
+    },
+    {
+      "source": "target:天井クレーン2号機",
+      "page": 0,
+      "x": 225.2,
+      "y": 443.8,
+      "on_axis": true,
+      "font_size": 9
+    },
+    {
+      "source": "item:*|巻過防止装置は正常に働くか",
+      "page": 0,
+      "x": 225.2,
+      "y": 425.8,
+      "on_axis": true,
+      "font_size": 9
+    },
+    {
+      "source": "item:*|ブレーキは正常に効くか",
+      "page": 0,
+      "x": 225.2,
+      "y": 407.8,
+      "on_axis": true,
+      "font_size": 9
+    },
+    {
+      "source": "item:*|フックの外れ止めに損傷はないか",
+      "page": 0,
+      "x": 225.2,
+      "y": 389.8,
+      "on_axis": true,
+      "font_size": 9
+    },
+    {
+      "source": "item:*|ワイヤロープに素線切れ・キンクはないか",
+      "page": 0,
+      "x": 225.2,
+      "y": 371.8,
+      "on_axis": true,
+      "font_size": 9
+    },
+    {
+      "source": "item:*|押しボタンスイッチは正常に働くか",
+      "page": 0,
+      "x": 225.2,
+      "y": 353.8,
+      "on_axis": true,
+      "font_size": 9
+    },
+    {
+      "source": "item:*|走行・横行時に異音はないか",
+      "page": 0,
+      "x": 225.2,
+      "y": 335.8,
+      "on_axis": true,
+      "font_size": 9
+    },
+    {
+      "source": "meta.unused",
+      "page": 0,
+      "x": 225.2,
+      "y": 318.8,
+      "on_axis": true,
+      "font_size": 9
+    },
+    {
+      "source": "meta.inspector",
+      "page": 0,
+      "x": 225.8,
+      "y": 304,
+      "on_axis": true,
+      "font_size": 8,
+      "vertical": true
+    },
+    {
+      "source": "meta.year",
+      "page": 0,
+      "x": 290,
+      "y": 556,
+      "font_size": 12
+    },
+    {
+      "source": "meta.month",
+      "page": 0,
+      "x": 352,
+      "y": 556,
+      "font_size": 12
+    }
+  ]
+}
