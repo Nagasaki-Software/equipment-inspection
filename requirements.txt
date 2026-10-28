@@ -1,5 +1,5 @@
 flask
-filelock
+filelock>=4.2.1
 jpholiday
 reportlab
 pypdf>=6.21.2,<7
